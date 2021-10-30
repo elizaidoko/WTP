@@ -16,7 +16,7 @@ body {
     margin-right: 1em !important;
 }
 .nav-link:hover {
-    color: #000;
+    color: rgba(0, 0, 0, 0.212);
 }
 .navbar-collapse {
     justify-content: flex-end;
@@ -145,4 +145,8 @@ legend{
 .subinfo{
 	font-weight: bold;
 	font-size: 1.2rem;
+}
+
+i{
+	padding-left: 10px;
 }
