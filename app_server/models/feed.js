@@ -10,4 +10,4 @@ const eventsSchema = new mongoose.Schema({
     where: String,
     imagelocation: String
     });
-    mongoose.model('events', feedSchema);
+    mongoose.model('events', eventsSchema);

@@ -3,7 +3,6 @@
 const homepage = function(req, res){
   res.render('feed', { title: 'Wheres the party',
      strapline: 'Upcoming Events',
-
      events: [{
 		name: 'Primavera Sound Barcelona',
 		description: 'rimavera Sound is a Spanish multi-genre music festival, held each summer on the sunny shores of Barcelona at the citys Parc del Fòrum. 2022 will see Primavera Sound celebrate its belated 20th anniversary by expanding to a two weekend event, once again inviting a lineup of the most innovative and influential artists from across the genre spectrum, from alternative indie through to underground techno. One look at the lineup and youll understand why the festival sits high up on any music fans bucket list.',
