@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const eventsSchema = new mongoose.Schema({
     name: {
         type: String,
-        required: true
+        required: false
         },
         
     description: String,
@@ -10,4 +10,4 @@ const eventsSchema = new mongoose.Schema({
     where: String,
     imagelocation: String
     });
-    mongoose.model('events', eventsSchema);
+    mongoose.model('Event', eventsSchema);
