@@ -26,6 +26,12 @@ body {
 	border-color: black;
 }
 
+.space{
+	padding-top: 25vw;
+	padding-bottom: 25vw;
+	background-color: #333;
+}
+
 .header {
     background-image: url('../images/headerbackground.jpg');
     background-size: cover;
